@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "name": "Cálculo",
+    "prof": "Bruna Dias de Carvalho",
+    "place": "Sala 319",
+    "day": 1,
+    "startTime": "18:40",
+    "endTime": "19:30"
+  },
+  {
+    "id": 1,
+    "name": "Cálculo",
+    "prof": "Bruna Dias de Carvalho",
+    "place": "Sala 319",
+    "day": 1,
+    "startTime":  "19:30",
+    "endTime": "20:20"
+  },
+  {
+    "id": 2,
+    "name": "Projeto de Análise de Algoritmos",
+    "prof": "André Cypriano Monteiro Costa",
+    "place": "Sala 319",
+    "day": 2,
+    "startTime":  "18:40",
+    "endTime": "19:30"
+  },
+  {
+    "id": 3,
+    "name": "Projeto de Análise de Algoritmos",
+    "prof": "André Cypriano Monteiro Costa",
+    "place": "Sala 319",
+    "day": 2,
+    "startTime": "19:30",
+    "endTime": "20:20"
+  },
+  {
+    "id": 4,
+    "name": "Gestão Financeira e Orçamentária",
+    "prof": "José Sérgio Resende Casagrande",
+    "place": "Sala 319",
+    "day": 2,
+    "startTime": "20:40",
+    "endTime": "21:30"
+  },
+  {
+    "id": 5,
+    "name": "Gestão Financeira e Orçamentária",
+    "prof": "José Sérgio Resende Casagrande",
+    "place": "Sala 319",
+    "day": 2,
+    "startTime": "21:30",
+    "endTime": "22:20"
+  },
+  {
+    "id": 6,
+    "name": "Cálculo",
+    "prof": "Bruna Dias de Carvalho",
+    "place": "Sala 319",
+    "day": 3,
+    "startTime": "18:40",
+    "endTime": "19:30"
+  },
+  {
+    "id": 7,
+    "name": "Cálculo",
+    "prof": "Bruna Dias de Carvalho",
+    "place": "Sala 319",
+    "day": 3,
+    "startTime": "19:30",
+    "endTime": "20:20"
+  },
+  {
+    "id": 8,
+    "name": "Projeto de Análise de Algoritmos",
+    "prof": "André Cypriano Monteiro Costa",
+    "place": "Sala 319",
+    "day": 3,
+    "startTime": "20:40",
+    "endTime": "21:30"
+  },
+  {
+    "id": 9,
+    "name": "Projeto de Análise de Algoritmos",
+    "prof": "André Cypriano Monteiro Costa",
+    "place": "Sala 319",
+    "day": 3,
+    "startTime": "21:30",
+    "endTime": "22:20"
+  }
+]

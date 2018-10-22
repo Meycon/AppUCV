@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.catolica.salesianoapp.ucv.activity.FrequenciaActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarFrequencia"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary" />
+
+    <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <!--android:elevation="6dp"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--app:titleTextColor="@color/red1"-->
+    <!--app:titleTextColor="@color/colorPrimary"-->
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_frequencia"
+        android:layout_below="@id/toolbarFrequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewFrequencia"
+            android:scrollbars="vertical"
+            android:padding="15dp"
+            android:scrollbarThumbVertical="@drawable/custom_scroll_style"
+            android:layout_below="@id/toolbarFrequencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarFrequencia"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

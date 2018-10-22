@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.catolica.salesianoapp.ucv.activity.CarteirinhaActivity">
+
+    <!--android:background="@drawable/profile_background"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarCarteirinha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagemLogo"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_splash3"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Universidade Católica de Vitória"
+                android:textColor="@color/colorBlueGrey600"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/imagemEstutante"
+      android:layout_gravity="center"
+      android:layout_marginTop="5dp"
+      android:src="@drawable/perfil"
+      android:layout_width="90dp"
+      app:civ_border_width="1dp"
+      app:civ_border_color="@color/black"
+      android:layout_height="80dp" />
+
+
+        <TextView
+            android:id="@+id/nomeCompleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Meycon Augusto dos Reis Pereira"
+            android:textColor="@color/colorBlueGrey600"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/matricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:text="Matrícula: 6915100633"
+            android:textColor="@color/colorBlueGrey600" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/coloWhite">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dados"
+                    android:textColor="@color/colorBlueGrey700"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:columnCount="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="CPF:"
+                        android:textColor="@color/colorBlueGrey600"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cpf"
+                        android:layout_gravity="right"
+                        android:text="CPF DO ALUNO"
+                        android:textColor="@color/colorBlueGrey600" />
+
+                    <TextView
+                        android:text="Curso:"
+                        android:textColor="@color/colorBlueGrey600"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/curso"
+                        android:layout_gravity="right"
+                        android:text="CURSO DO ALUNO"
+                        android:textColor="@color/colorBlueGrey600" />
+
+                    <TextView
+                        android:text="Email:"
+                        android:textColor="@color/colorBlueGrey600"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_gravity="right"
+                        android:text="EMAIL DO ALUNO"
+                        android:textColor="@color/colorBlueGrey600" />
+
+                    <TextView
+                        android:text="Validade:"
+                        android:textColor="@color/colorBlueGrey600"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/validade"
+                        android:layout_gravity="right"
+                        android:text="VALIDADE DA CARTEIRINHA"
+                        android:textColor="@color/colorBlueGrey600" />
+
+                </GridLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Aviso"
+                    android:textColor="@color/colorBlueGrey700"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Válido mediante apresentação de documento de identidade com foto."
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlueGrey600"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnCarteirinha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#1976D2"
+                    android:clickable="true"
+                    android:minWidth="150dp"
+                    android:text="OK"
+                    android:textColor="@color/coloWhite" />
+                <!--android:background="@drawable/button_rounded"-->
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

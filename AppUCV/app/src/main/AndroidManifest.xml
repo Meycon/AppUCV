@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.catolica.salesianoapp.ucv">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeCustomTheme" />
+        <activity android:name=".activity.NotasActivity" />
+        <activity android:name=".activity.FrequenciaActivity" />
+        <activity android:name=".activity.ComunicadoActivity" />
+        <activity android:name=".activity.FinanceiroActivity" />
+        <activity android:name=".activity.QuadroDeHorarioActivity" />
+        <activity android:name=".activity.HistoricoEscolarActivity" />
+        <activity android:name=".activity.FaleConoscoActivity" />
+        <activity android:name=".activity.DetalhesActivity" />
+        <activity android:name=".activity.NoticiaPorCategoriaActivity" />
+        <activity android:name=".activity.CarteirinhaActivity" />
+        <activity android:name=".activity.DocumentosActivity" />
+        <activity android:name=".activity.DetalhesPdfActivity" />
+        <activity android:name=".activity.DesempenhoActivity" />
+        <activity android:name=".activity.DetalhesEstagioActivity" />
+        <activity android:name=".activity.EstagioActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".activity.TutorialActivity"
+            android:theme="@style/AppTheme4" />
+        
+    </application>
+
+</manifest>

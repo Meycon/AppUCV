@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.catolica.salesianoapp.ucv.fragment.TabFragmentDesempenho">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabsDesempenho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        app:tabTextColor="#fff"
+        app:tabSelectedTextColor="#fff"
+        app:tabGravity="fill" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerDesempenho"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabsDesempenho" />
+
+
+</RelativeLayout>

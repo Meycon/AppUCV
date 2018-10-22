@@ -1,0 +1,248 @@
+[
+  {
+    "id": 0,
+    "semestre": "2017/2",
+    "materias": [
+      {
+        "id": 0,
+        "disciplina": "Segurança da Informação",
+        "situacao": "Aprovado",
+        "notaFinal": "69,0"
+      },
+      {
+        "id": 1,
+        "disciplina": "Cálculo",
+        "situacao": "Aprovado",
+        "notaFinal": "74,0"
+      },
+      {
+        "id": 2,
+        "disciplina": "Estágio Obrigatório II",
+        "situacao": "Aprovado",
+        "notaFinal": "100,0"
+      },
+      {
+        "id": 3,
+        "disciplina": "Projeto Integrador III",
+        "situacao": "Aprovado",
+        "notaFinal": "72,0"
+      },
+      {
+        "id": 4,
+        "disciplina": "Projeto de Análise de Algoritmo",
+        "situacao": "Aprovado",
+        "notaFinal": "70,0"
+      },
+      {
+        "id": 5,
+        "disciplina": "Gestão Financeira e Orçamentária",
+        "situacao": "Aprovado",
+        "notaFinal": "77,0"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "semestre": "2017/1",
+    "materias": [
+      {
+        "id": 0,
+        "disciplina": "Estágio Obrigatório I",
+        "situacao": "Aprovado",
+        "notaFinal": "80,0"
+      },
+      {
+        "id": 1,
+        "disciplina": "Fundamentos de Sistemas Multimídia",
+        "situacao": "Aprovado",
+        "notaFinal": "75,0"
+      },
+      {
+        "id": 2,
+        "disciplina": "Gestão de Projetos",
+        "situacao": "Aprovado",
+        "notaFinal": "76,0"
+      },
+      {
+        "id": 3,
+        "disciplina": "Programação Orientada a Objetos II",
+        "situacao": "Aprovado",
+        "notaFinal": "84,0"
+      },
+      {
+        "id": 4,
+        "disciplina": "Sistemas Distribuidos",
+        "situacao": "Aprovado",
+        "notaFinal": "78,0"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "semestre": "2016/2",
+    "materias": [
+      {
+        "id": 0,
+        "disciplina": "Educação e Diversidade (EaD)",
+        "situacao": "Aprovado",
+        "notaFinal": "67,0"
+      },
+      {
+        "id": 1,
+        "disciplina": "Fundamentos de Bancos de Dados",
+        "situacao": "Aprovado",
+        "notaFinal": "83,0"
+      },
+      {
+        "id": 2,
+        "disciplina": "Programação Orientada a Objetos I",
+        "situacao": "Aprovado",
+        "notaFinal": "86,0"
+      },
+      {
+        "id": 3,
+        "disciplina": "Projeto Integrador II",
+        "situacao": "Aprovado",
+        "notaFinal": "88,0"
+      },
+      {
+        "id": 4,
+        "disciplina": "Projetos de Sistemas",
+        "situacao": "Aprovado",
+        "notaFinal": "89,0"
+      },
+      {
+        "id": 5,
+        "disciplina": "Sistemas Operacionais",
+        "situacao": "Aprovado",
+        "notaFinal": "82,0"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "semestre": "2016/1",
+    "materias": [
+      {
+        "id": 0,
+        "disciplina": "Álgebra Linear",
+        "situacao": "Aprovado",
+        "notaFinal": "74,0"
+      },
+      {
+        "id": 1,
+        "disciplina": "Análise de Sistemas",
+        "situacao": "Aprovado",
+        "notaFinal": "86,0"
+      },
+      {
+        "id": 2,
+        "disciplina": "Estrutura de Dados",
+        "situacao": "Aprovado",
+        "notaFinal": "72,0"
+      },
+      {
+        "id": 3,
+        "disciplina": "Interface Homem-Máquina",
+        "situacao": "Aprovado",
+        "notaFinal": "70,0"
+      },
+      {
+        "id": 4,
+        "disciplina": "Programação para Internet",
+        "situacao": "Aprovado",
+        "notaFinal": "90,0"
+      },
+      {
+        "id": 5,
+        "disciplina": "Tecnologia da Informação e Comunicação",
+        "situacao": "Aprovado",
+        "notaFinal": "83,0"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "semestre": "2015/2",
+    "materias": [
+      {
+        "id": 0,
+        "disciplina": "Engenharia de Software",
+        "situacao": "Aprovado",
+        "notaFinal": "70,0"
+      },
+      {
+        "id": 1,
+        "disciplina": "Estatística",
+        "situacao": "Aprovado",
+        "notaFinal": "82,0"
+      },
+      {
+        "id": 2,
+        "disciplina": "Introdução à Programação II",
+        "situacao": "Aprovado",
+        "notaFinal": "80,0"
+      },
+      {
+        "id": 3,
+        "disciplina": "Metodologia da Pesquisa (EaD)",
+        "situacao": "Aprovado",
+        "notaFinal": "64,0"
+      },
+      {
+        "id": 4,
+        "disciplina": "Projeto Integrador I",
+        "situacao": "Aprovado",
+        "notaFinal": "93,0"
+      },
+      {
+        "id": 5,
+        "disciplina": "Redes de Computadores",
+        "situacao": "Aprovado",
+        "notaFinal": "74,0"
+      },
+      {
+        "id": 6,
+        "disciplina": "Sociologia (EaD)",
+        "situacao": "Aprovado",
+        "notaFinal": "78,0"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "semestre": "2015/1",
+    "materias": [
+      {
+        "id": 0,
+        "disciplina": "Arquitetura de Computadores",
+        "situacao": "Aprovado",
+        "notaFinal": "62,0"
+      },
+      {
+        "id": 1,
+        "disciplina": "Comunicação e Expressão (EaD)",
+        "situacao": "Aprovado",
+        "notaFinal": "88,0"
+      },
+      {
+        "id": 2,
+        "disciplina": "Fundamentos da Administração",
+        "situacao": "Aprovado",
+        "notaFinal": "77,0"
+      },
+      {
+        "id": 3,
+        "disciplina": "Introdução à Programação I",
+        "situacao": "Aprovado",
+        "notaFinal": "68,0"
+      },
+      {
+        "id": 4,
+        "disciplina": "Matemática",
+        "situacao": "Aprovado",
+        "notaFinal": "85,0"
+      }
+    ]
+  }
+]
