@@ -5,6 +5,10 @@ Repositório oficial do aplicativo [UCV para Android](https://github.com/Meycon/
 
 [![CircleCI](https://circleci.com/gh/caronae/caronae-android.svg?style=svg)](https://circleci.com/gh/caronae/caronae-android)
 
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+
 Aplicativo para Android do UCV.
 
 **Requisitos:**
